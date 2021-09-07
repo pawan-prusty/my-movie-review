@@ -1,4 +1,4 @@
-import React, { FormEvent } from "react";
+import React from "react";
 import { useState } from "react";
 import "./Styles/blog.css";
 import { confirmAlert } from "react-confirm-alert";
@@ -6,7 +6,7 @@ import "react-confirm-alert/src/react-confirm-alert.css";
 
 import { useFormik } from "formik";
 function Blog() {
-  const [id, setId] = useState<number>(new Date().getTime());
+  const [id] = useState<number>(new Date().getTime());
 
   const formik = useFormik({
     initialValues: {

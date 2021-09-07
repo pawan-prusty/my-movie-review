@@ -10,7 +10,9 @@ function MovieList() {
   const [movieList, setMovieList] = useState<Array<movie>>();
 
   useEffect(() => {
-    fetch("http://localhost:9002/Movies")
+    fetch(
+      "https://my-json-server.typicode.com/pawan-prusty/my-movie-review/Movies"
+    )
       .then((response) => response.json())
       .then((data) => setMovieList(data));
   }, []);

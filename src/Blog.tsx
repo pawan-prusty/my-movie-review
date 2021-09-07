@@ -31,11 +31,14 @@ function Blog() {
                 review: values.review,
                 img_src: values.img_src,
               };
-              fetch(`http://localhost:9002/Movies`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(obj),
-              }).then(() => {
+              fetch(
+                `https://my-json-server.typicode.com/pawan-prusty/my-movie-review/Movies`,
+                {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(obj),
+                }
+              ).then(() => {
                 console.log("blog added");
               });
             },

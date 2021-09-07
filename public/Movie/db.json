@@ -1,0 +1,46 @@
+{
+  "Movies": [
+    {
+      "id": 1,
+      "text": "Ghost Rider",
+      "rating": 5.7,
+      "review": "",
+      "img_src": "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/ghostrider_onesheet_1400x2100_rated.png?itok=-RMFOXGl"
+    },
+    {
+      "id": 2,
+      "text": "Van Helsing",
+      "rating": 6.3,
+      "review": "",
+      "img_src": "https://flxt.tmsimg.com/assets/p13149985_b1t_v9_aa.jpg"
+    },
+    {
+      "id": 4,
+      "text": "The Godfather",
+      "rating": 9.5,
+      "review": "",
+      "img_src": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Interstellar",
+      "rating": 8.5,
+      "review": "This movie was the best written, acted, visual effected, etc. movie. This movie was the best movie I have ever seen. I am a huge Christopher Nolan fan and this movie was his finest. Matthew McConaughey turned in his best performance of his lifetime. Anne Hathaway was an amazing supporting actress and compared to her performance in Les Miserables, I have no idea how she didn't get an Oscar for this. The visual effects were more than just Oscar worthy. They were pioneering. I have never seen anything like it. One thing I would recommend is having a little previous knowledge about space. Not like Einstein stuff though. I would recommend you see this movie as fast as you can if you are a Nolan fan or not. I give this movie a rating of 85 out of 100.",
+      "img_src": "https://i.pinimg.com/736x/11/1c/5c/111c5c9ad99661af2d80e38948cf29d8--interstellar-film-posters.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Titanic",
+      "rating": 9,
+      "review": "",
+      "img_src": "https://i.pinimg.com/736x/d6/a7/56/d6a75615914944001fffe1af76c95649.jpg"
+    },
+    {
+      "text": "Gone Girl",
+      "rating": 8.3,
+      "id": 1630997342650,
+      "review": "Fincher strikes",
+      "img_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14WrqnG_i2DUCsgsqKIme4ya5XaiEaIoQfsxeOkhDsx6e5ESe"
+    }
+  ]
+}

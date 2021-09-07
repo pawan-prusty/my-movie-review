@@ -1,0 +1,88 @@
+.container-blog {
+  position: relative;
+  box-sizing: border-box;
+  width: 84%;
+  margin: 0 auto;
+  background-color: white;
+  height: 80vh;
+  background-size: 1500px;
+  overflow: auto;
+  background-image: url("http://2.bp.blogspot.com/-uuj0w-O7ieU/UL4GEZWKpFI/AAAAAAAAOa0/NYBD3r0iHFw/s1600/Popcorn+Wallpapers+01.jpg");
+  background-repeat: no-repeat;
+}
+.form-div {
+  width: 50%;
+  position: relative;
+
+  margin: 0 auto;
+  top: 7%;
+
+  /* background-image: url("https://images-na.ssl-images-amazon.com/images/I/61vuT+YGXyL.jpg"); */
+  background-size: contain;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  border-radius: 30px;
+
+  align-items: center;
+}
+.text,
+.rating,
+.img_src {
+  width: 400px;
+  height: 30px;
+  background-color: rgba(223, 213, 213, 0.801);
+  border: none;
+  border-radius: 15px;
+}
+.text:focus,
+.rating:focus,
+.img_src:focus,
+.review:focus {
+  outline: none;
+  border-color: #ede89e;
+  box-shadow: 0 0 10px #9ecaed;
+}
+.review {
+  width: 400px;
+  height: 60px;
+  background-color: rgba(223, 213, 213, 0.801);
+  border: none;
+  border-radius: 15px;
+}
+.blog-submit {
+  margin: 25px auto;
+  border-radius: 20px;
+  width: 400px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: rgb(243, 55, 30);
+}
+.blur-div {
+  width: 100%;
+  display: flex;
+  min-height: 70vh;
+
+  background-color: rgba(36, 29, 4, 0.685);
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+}
+.text::placeholder,
+.review::placeholder,
+.rating::placeholder,
+.img_src::placeholder {
+  color: black;
+}
+.text-div,
+.rating-div,
+.review-div,
+.img_src-div {
+  margin-top: 20px;
+}
+.error-div {
+  color: rgb(255, 136, 136);
+  font-size: 15px;
+}
